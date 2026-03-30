@@ -104,9 +104,9 @@ img {
 }
 
 .nav-logo img {
-  height: 78px;
+  height: clamp(72px, 8vw, 110px);
   width: auto;
-  max-width: 220px;
+  max-width: 300px;
   display: block;
   object-fit: contain;
 }
@@ -1262,9 +1262,9 @@ img {
 }
 
 .footer-logo img {
-  height: 70px;
+  height: 110px;   /* increased */
   width: auto;
-  max-width: 280px;
+  max-width: 360px; /* increased */
   display: block;
   margin: 0 auto 28px;
   object-fit: contain;
@@ -1351,9 +1351,9 @@ img {
   }
 
   .nav-logo img {
-    height: 46px;
-    max-width: 170px;
-  }
+  height: 72px;        /* bigger, more visible */
+  max-width: 220px;    /* keeps it from stretching too far */
+}
 
   .nav-links {
     display: none;
