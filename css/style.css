@@ -82,7 +82,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 80px;
+  padding: 14px 60px;
   background-color: #1c2a3e;
   border-bottom: 1px solid rgba(212, 160, 23, 0.25);
   position: sticky;
@@ -104,9 +104,9 @@ img {
 }
 
 .nav-logo img {
-  height: clamp(72px, 8vw, 110px);
+  height: 48px;
   width: auto;
-  max-width: 300px;
+  max-width: 200px;
   display: block;
   object-fit: contain;
 }
@@ -1261,12 +1261,11 @@ img {
   margin-bottom: 28px;
 }
 
-.footer-logo img {
-  height: 110px;   /* increased */
+.nav-logo img {
+  height: 48px;
   width: auto;
-  max-width: 360px; /* increased */
+  max-width: 200px;
   display: block;
-  margin: 0 auto 28px;
   object-fit: contain;
 }
 
@@ -1346,7 +1345,7 @@ img {
   }
 
   .navbar {
-    padding: 12px 24px;
+    padding: 12px 12px;
     position: relative;
   }
 
