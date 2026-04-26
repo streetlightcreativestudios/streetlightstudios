@@ -99,9 +99,18 @@ img {
   align-items: center;
   font-size: 20px;
   font-weight: 800;
-  color: #f4b942;
+  color: #ffffff;
   letter-spacing: 1px;
   white-space: nowrap;
+}
+
+/* Gold glowing 'i' in logo */
+.glow-i {
+  color: #d4a017;
+  text-shadow:
+    0 0 10px #f5d87a,
+    0 0 22px #dddddc,
+    0 0 44px rgba(212, 160, 23, 0.5);
 }
 
 .nav-logo img {
@@ -1261,7 +1270,7 @@ img {
 .footer-logo {
   font-size: 20px;
   font-weight: 800;
-  color: #f4b942;
+  color: #ffffff;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
